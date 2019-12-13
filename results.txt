@@ -1,10 +1,11 @@
-Simulation for virus: Malaise
-Reproduction Number: 0.2, Mortality Number: 0.99
-Population Size: 16
+Simulation for virus: Ebola
+Reproduction Number: 0.25, Mortality Number: 0.7
+Population Size: 115
 Initial Vaccinated: 5
-Initial Healthy: 10
-Initial Infected: 1
+Initial Healthy: 100
+Initial Infected: 10
 
-Simulation Ended after 0 turns
-Total Dead: 0
-Total Vaccinated: 5
+Simulation Ended after 3 turns
+Total Dead: 32
+Total Vaccinated: 80
+Total Alive: 83

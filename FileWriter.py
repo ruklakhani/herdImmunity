@@ -17,12 +17,12 @@ class FileWriter:
 
         results_file.close()
     
-    def write_results(self, time_step_counter, total_dead, total_vaccinated):
+    def write_results(self, time_step_counter, total_dead, total_vaccinated, total_alive):
         '''Write the results of the simulation to the file'''
         results_file = open(self.results_file_name, "a")
 
         results_file.write(f"\nSimulation Ended after {time_step_counter} turns\n")
         results_file.write(f"Total Dead: {total_dead}\n")
         results_file.write(f"Total Vaccinated: {total_vaccinated}\n")
-
+        results_file.write(f"Total Alive: {total_alive}\n")
         results_file.close()

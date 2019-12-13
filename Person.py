@@ -21,5 +21,16 @@ class Person:
         '''
 
         #TODO: finish this method
-        pass
+        num = random.random()
+        if self.infection and num < self.infection.mortality_num:
+            self.is_alive = False
+            self.infection = None
+            self.is_vaccinated = False 
+
+            return False
         
+        self.is_alive = True
+        self.is_vaccinated = True
+        self.infection = None
+        return True
+    
